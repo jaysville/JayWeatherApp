@@ -1,0 +1,60 @@
+body {
+    background: #0F2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: white;
+}
+
+#dataBody {
+    background: #E8CBC0;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #636FA4, #E8CBC0);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #636FA4, #E8CBC0);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+#title {
+    color: #eaf3ff;
+}
+
+#button {
+    background-color: #77A1D3;
+    color: white;
+}
+
+#logo,
+#pressureIcon {
+    width: 75px;
+    height: 75px;
+    margin: auto;
+}
+
+#humidityIcon,
+#windspeedIcon {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+}
+
+#imgDiv {
+    margin-top: -10px;
+}
+
+#section {
+    border-radius: 20px;
+    background: #7f75d5;
+    box-shadow: 7px 7px 14px #6b62b3,
+        -7px -7px 14px #9388f7;
+}
+
+#backLink {
+    font-size: 2.5em;
+    color: white;
+}
