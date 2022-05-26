@@ -32,12 +32,6 @@ mongoose.connect(dbUrl, { useNewUrlParser: true, useUnifiedTopology: true })
         console.log(err)
     })
 
-// const catchAsync = (fn) => {
-//     return (req, res, next) => {
-//         fn(req, res, next).catch(e => next(e))
-//     }
-// }
-
 
 app.get('/', (req, res) => {
     res.render('home')
@@ -67,7 +61,7 @@ app.post('/weather', async (req, res) => {
 })
 const port = process.env.PORT || 3000
 
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log(`Server is listening on port ${port}`)
 })
 
