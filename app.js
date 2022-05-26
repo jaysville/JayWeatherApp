@@ -9,7 +9,6 @@ const path = require('path')
 const axios = require('axios')
 
 const mongoose = require('mongoose')
-const catchAsync = require('../tvshow/utiilities/catchAsync')
 app.use(express.static('public'))
 app.set('view engine', 'ejs')
 app.set('views', path.join(__dirname, 'views'))
